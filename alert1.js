@@ -1,16 +1,9 @@
-// This is a JavaScript comment. It won't be executed by the computer.
+const fs = require('fs');
 
-// Define a function called greetUser
-function greetUser(name) {
-  console.log(`Hello, ${name}!`);
-}
+const fileName = 'enhj0.txt';
 
-// Call the greetUser function with the argument "John"
-greetUser("John");
-
-// Call the greetUser function with the argument "Jane"
-greetUser("Jane");
-
-document.write(`
-<h1>Test</h1>
-`);
+// Create an empty file
+fs.writeFile(fileName, '', (err) => {
+  if (err) throw err;
+  console.log(`File '${fileName}' created successfully!`);
+});

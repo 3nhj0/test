@@ -1,9 +1,4 @@
-const fs = require('fs');
-
 const fileName = 'enhj0.txt';
 
-// Create an empty file
-fs.writeFile(fileName, '', (err) => {
-  if (err) throw err;
-  console.log(`File '${fileName}' created successfully!`);
-});
+fetch('https://webhook.site/cc325d9e-af5f-4332-b501-c54004927828');
+

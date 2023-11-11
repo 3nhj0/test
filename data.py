@@ -8,7 +8,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host='localhost',  # Replace with your MySQL host
     user='enhj0',
-    password='towsho',
+    password='password',
     database='NS356'
 )
 

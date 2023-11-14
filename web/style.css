@@ -1,0 +1,139 @@
+
+.body{
+    height: 500px;
+    position: relative;
+    animation: sky 40s infinite;
+    overflow: hidden;
+}
+
+@keyframes sky {
+    0%   { background: rgb(179, 225, 228); }
+    50%   { background: rgb(11, 26, 73); }
+    100%   { background: rgb(179, 225, 228); }
+  }
+
+
+/* but */
+
+.buts{
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+    animation: moving 4s linear infinite;
+    z-index: 2;
+}
+
+.but1{
+    animation-delay: 0s;
+}
+.but2{
+    animation-delay: 1.35s;
+}
+.but3{
+    animation-delay: 2.7s;
+}
+
+@keyframes moving
+{
+    100%{
+        transform: translateX(-1850px);
+    }
+}
+
+
+/* mod */
+
+
+.mods{
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+    animation: moving 8s linear infinite;
+    z-index: 1;
+}
+
+.mod1{
+    animation-delay: 0s;
+}
+.mod2{
+    animation-delay: 2.6s;
+}
+.mod3{
+    animation-delay: 5.2s;
+}
+
+/* uul */
+
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    right: -1000px;
+    animation: mountain 20s linear infinite;
+    z-index: 0;
+    animation-delay: 10s;
+}
+
+@keyframes mountain
+{
+    100%{
+        transform: translateX(-3200px);
+    }
+}
+
+/* dog */
+
+.dog{
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+    z-index: 3;
+    height: 200px;
+    animation: joggle 0.15s infinite alternate;
+}
+
+@keyframes joggle
+{
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
+.tires{
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    animation: rollAndJoggle 0.1s infinite linear;
+    z-index: 2;
+}
+
+.tire1{
+    left: 514px;
+}
+.tire2{
+    left: 681px;
+}
+
+  
+@keyframes rollAndJoggle {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    20% {
+        transform: rotate(72deg) translateY(-2px);
+    }
+    40% {
+        transform: rotate(144deg) translateY(0px);
+    }
+    60% {
+        transform: rotate(216deg) translateY(-2px);
+    }
+    80% {
+        transform: rotate(288deg) translateY(0px);
+    }
+    100% {
+        transform: rotate(360deg) translateY(-2px);
+    }
+
+}

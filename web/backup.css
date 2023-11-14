@@ -1,0 +1,88 @@
+#wheel1, #wheel2 {
+  -webkit-animation: 1.5s bikeWheelRotate linear infinite;
+  -moz-animation: 1.5s bikeWheelRotate linear infinite;
+  -o-animation: 1.5s bikeWheelRotate linear infinite;
+  animation: 1.5s bikeWheelRotate linear infinite;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+#wheel1 {
+  -moz-transform-origin: 40.65px 119.55px;
+}
+#wheel2 {
+  -moz-transform-origin: 165.9px 120.4px;
+}
+
+@-webkit-keyframes bikeWheelRotate {
+  /* line 16, ../scss/diwali.scss */
+  from {
+    -webkit-transform: rotate(0px);
+    -moz-transform: rotate(0px);
+    -o-transform: rotate(0px);
+    transform: rotate(0px);
+  }
+
+  /* line 19, ../scss/diwali.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes bikeWheelRotate {
+  /* line 16, ../scss/diwali.scss */
+  from {
+    -webkit-transform: rotate(0px);
+    -moz-transform: rotate(0px);
+    -o-transform: rotate(0px);
+    transform: rotate(0px);
+  }
+
+  /* line 19, ../scss/diwali.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes bikeWheelRotate {
+  /* line 16, ../scss/diwali.scss */
+  from {
+    -webkit-transform: rotate(0px);
+    -moz-transform: rotate(0px);
+    -o-transform: rotate(0px);
+    transform: rotate(0px);
+  }
+
+  /* line 19, ../scss/diwali.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bikeWheelRotate {
+  /* line 16, ../scss/diwali.scss */
+  from {
+    -webkit-transform: rotate(0px);
+    -moz-transform: rotate(0px);
+    -o-transform: rotate(0px);
+    transform: rotate(0px);
+  }
+
+  /* line 19, ../scss/diwali.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
